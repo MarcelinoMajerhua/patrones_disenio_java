@@ -34,5 +34,6 @@ public class Catalogo {
         for(Scooter scooter: scooters){
             scooter.mostrarCaracteristica();
         };
+
     }
 }
