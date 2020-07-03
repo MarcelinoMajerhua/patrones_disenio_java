@@ -11,6 +11,7 @@ public class DocumentacionCliente extends Documentacion{
 
      for (Documento documento: documentosEnBlanco) {
          Documento copiaDocumento = documento.duplicate();
+
          copiaDocumento.rellenar(informacion);
          documentos.add(copiaDocumento);
      }
